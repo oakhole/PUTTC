@@ -1,0 +1,59 @@
+/*!
+ * style.css
+ */
+
+@import "base";
+
+/*!
+ * Header
+ */
+
+header{
+  background: $header-background;
+  color: $header-color;
+  .lang-switch{
+    background: #666;
+    border-bottom: #f00;
+    a{
+      font-size:14px;
+      color: $header-color;
+      &:hover{
+        color: $header-hover-color;
+      };
+    }
+  }
+}
+
+/*!
+ * Site Content
+ */
+.events{
+  background: $events-background;
+}
+
+.carousel{
+  
+}
+
+.news{
+ background: $news-background; 
+}
+
+
+/*!
+ * Footer
+ */
+footer{
+  background: $footer-background;
+  color: $footer-color;
+  padding: 20px 0;
+  .footer-logo{
+    padding-top:1.5em;
+  }
+  .footer-address{
+    padding-left:1em;
+  }
+  .footer-contact{
+    padding-top:2em;
+  }
+}
