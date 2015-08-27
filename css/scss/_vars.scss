@@ -2,15 +2,23 @@
  * _vars.css
  */
 
-$body-background: #FFF;
+$body-background: #EFEFEF;
 
-$header-background: #333;
+$header-background: #900;
 $header-color: #CCC;
 $header-hover-color: #FFF;
 
-$events-background: #FFF;
+$events-background: #039;
+$events-border: #999;
+$events-head-color: #FFF;
+$events-latest-background: #FFF;
 
-$news-background: #CCC;
+$latest-news-background: #FFF;
+$latest-news-p-color: #666;
+$latest-news-p-span-color: #999;
+$latest-news-a-color: #333;
+$latest-new-border: #CCC;
+$latest-news-a-border-top: #CCC;
 
 $footer-background: #900;
 $footer-color: #FFF;

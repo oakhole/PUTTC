@@ -6,9 +6,9 @@
  */
 body {
   font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Microsoft Yahei, sans-serif;
-  background: #FFF; }
+  background: #EFEFEF; }
 
-.hvcenter {
+.hvcenter, header .banner, #site-content #feature-events #feature-events-head h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -26,7 +26,7 @@ body {
  * Header
  */
 header {
-  background: #333;
+  background: #900;
   color: #CCC; }
   header .lang-switch {
     background: #666;
@@ -36,15 +36,52 @@ header {
       color: #CCC; }
       header .lang-switch a:hover {
         color: #FFF; }
+  header .banner {
+    padding: 10px 0; }
 
 /*!
  * Site Content
  */
-.events {
-  background: #FFF; }
-
-.news {
-  background: #CCC; }
+#site-content #feature-events {
+  background: #039;
+  border: 2px solid #999;
+  margin-bottom: 20px; }
+  #site-content #feature-events #feature-events-head {
+    color: #FFF; }
+    #site-content #feature-events #feature-events-head :first-child {
+      border-bottom: 2px solid #999; }
+    #site-content #feature-events #feature-events-head h4 {
+      float: left;
+      padding: 10px; }
+      #site-content #feature-events #feature-events-head h4 a {
+        text-decoration: none; }
+  #site-content #feature-events #feature-events-latest {
+    margin: 0;
+    padding: 0;
+    background: #FFF; }
+    #site-content #feature-events #feature-events-latest .latest-events {
+      border-left: 2px solid #999;
+      padding: 15px; }
+#site-content #news .latest-news {
+  margin: 10px 0;
+  padding: 10px 10px 0px;
+  background: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 5px; }
+  #site-content #news .latest-news img {
+    width: 100%; }
+  #site-content #news .latest-news p {
+    color: #666; }
+    #site-content #news .latest-news p a {
+      display: block;
+      margin-top: 10px;
+      padding-top: 5px;
+      border-top: 1px solid #CCC;
+      color: #333;
+      font-size: 13px; }
+      #site-content #news .latest-news p a span {
+        float: right;
+        color: #999; }
 
 /*!
  * Footer
@@ -52,7 +89,8 @@ header {
 footer {
   background: #900;
   color: #FFF;
-  padding: 20px 0; }
+  padding: 20px 0;
+  margin-top: 20px; }
   footer .footer-logo {
     padding-top: 1.5em; }
   footer .footer-address {

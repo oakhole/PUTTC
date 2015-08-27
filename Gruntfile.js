@@ -37,7 +37,7 @@ module.exports = function(grunt) {
     // 文件合并
     concat: {
       options: {
-        separator: ';',
+        separator: '',
         stripBanners: true
       },
       js: {
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
         dest: "dist/js/<%= pkg.name %>.js"
       },
       css: {
-        src: "css/*.css",
+        src: ['css/bootstrap.css','css/bootstrap-theme.css','css/font-awesome.css','css/style.css'],
         dest: "dist/css/<%= pkg.name %>.css"
       }
 			
