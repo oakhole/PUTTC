@@ -15,146 +15,101 @@
 <body id="news" onload="">
     
   <header>
-    <!-- Language Switch -->
-    <div id="lang-switch" class="lang-switch hidden-sm hidden-xs">
-      <div class="container text-right">
-        <a href="#">About us</a> | <a href="#">中文</a>
-      </div>
+    <!-- Search -->
+    <div id="search" class="search text-right">
+      <input class="search-box" type="text" name="search_keywords" placeholder="  keywords" value="" id="search_keywords">
+      <i class="fa fa-search"></i><a href="#">登陆</a>
     </div>
     
-    <!-- Logo & Search -->
+    <!-- Logo -->
     <div id="banner" class="banner container">
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <span class="text-left"><img src="images/logo.png" class="img-responsive"></span>
-      </div>
-      <div class="col-md-4 col-md-offset-4 col-sm-12 col-xs-12">
-        <form class="navbar-form navbar-right" role="search">
-          <div class="form-group">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search">
-              <div class="input-group-addon"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></div>
-            </div>
-          </div>
-        </form>
+      <div class="col-md-10">
+        <img src="images/logo.png" class="logo-normal" />
+        <img src="images/logo-words.png" class="pull-right"/>
       </div>
     </div>
     
-    <!-- Header Menu -->
-    <nav class="container navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-menu" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="header-menu">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About TTC <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">At a glance</a></li>
-                <li><a href="#">Structure</a></li>
-                <li class="dropdown"><a href="#">Directories</a></li>
-                <li><a href="#"> - Alliance</a></li>
-                <li><a href="#"> - Nanjing</a></li>
-                <li><a href="#"> - Suzhou</a></li>
-                <li><a href="#">FAQ</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Technology Transfer</a></li>
-            <li><a href="#">Investment & Incubation</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
   </header>
     
   <div id="site-content" class="site-content">
     <div id="single-news" class="container">
-      <div id="breadcrumb">
+      
+      <!-- S Breadcrumb -->
+      <div id="breadcrumb" class="col-md-10 col-md-offset-1 col-sm-12">
         <ol class="breadcrumb">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">News</a></li>
-          <li class="active">Slug</li>
+          <li><a href="#">首页</a></li>
+          <li><a href="#">新闻</a></li>
+          <li class="active">示例</li>
         </ol>
       </div>
-      <div id="news-detail" class="col-md-8 col-sm-12 col-xs-12">
+      <!-- E Breadcrumb -->
+      
+      <!-- S Article -->
+      <div id="news-detail" class="col-md-10 col-md-offset-1 col-sm-12">
         <article>
-          <h3 class="title">Sed ut perspiciatis unde omnis iste natus</h3>
-          <p class="publish-time">2015年8月27日</p>
-          <hr/>
-          <img src="http://placehold.it/800x200" class="img-responsive"/>
+          <div class="title">
+            <h3>大学最根本的使命是帮助学生成长</h3>
+            <p class="text-mute text-right">2016-01-23</p>
+          </div>
+          <img src="images/article-cover-demo.jpg" class="img-cover"/>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem ape riam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt nam aliquam quaerat voluptatem. Ut enim ad inima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.
+            【编前】《如何成为卓越的大学生》由美国肯·贝恩著，孙晓芸、郑芳芳译，北京大学出版社2015年8月出版。北大校长林建华为此书写了书评，全文刊登在《中华读书报》，本网特转载以飨读者。
           </p>
-          <img src="http://placehold.it/400x300" class="img-responsive"/>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem ape riam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt nam aliquam quaerat voluptatem. Ut enim ad inima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.
+            改革开放三十多年来，中国高等教育发生了很大的变化。从大学的校园、仪器和设施条件到高等教育规模，从教师的学术研究水准到大学管理的理念和水平，今天的中国大学与几十年前相比，已脱胎换骨了。有时候，我们身在其中，终日忙于教学科研事务，对身边发生的变化反而有些视而不见了。对这些变化，国外的同行更敏感一些，谈起来，他们对中国高等教育的发展和进步充满了惊奇和敬意，认为是世界高等教育史上的奇迹。不过，中国社会似乎对这些进步和发展并不买账。特别是最近几年，社会对中国高等教育的质疑和批评之声此起彼伏。政府认为大学没有为中国社会和经济发展提供必需的学术和人才支撑，科技成果的转化率不高，培养的学生不能适应社会和产业发展的要求，公众则认为大学教育呆板僵化，扼杀了青年人的创造活力。
           </p>
-          <img src="http://placehold.it/600x300" class="img-responsive"/>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem ape riam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt nam aliquam quaerat voluptatem. Ut enim ad inima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.
+            对于教育中存在的这些问题，中国大学并非充耳不闻、无所作为。事实上，几十年来，中国大学的教育改革从未停止。以北大为例，20世纪80年代末初提出加强基础、淡化专业，进行专业调整，举办文理科实验班；本世纪初提出加强通识教育，设立通选课，建立元培学院，推广小班教学，推进更加多样化的专业教育体系建设。其他学校也是如此，南京大学的“三三制”教育体系建设，复旦大学、浙江大学、西安交通大学的本科学院，重庆大学的与企业合作的培养模式（COOP)等，各个学校都在以自己的方式推进本科教育的改革。应当说，我们所进行的这些改革，在不同程度上改善了中国大学的本科教育状况，但实事求是地讲，效果差强人意，中国大学的人才培养质量并没有很大的改观。
+          </p>
+          <p>
+            《如何成为卓越的大学生》一书的作者肯·贝恩教授，曾担任美国哥伦比亚特区大学教务长和分管学术的副校长，并获得了很多美国的教学成就奖，被誉为美国最好的老师之一。他的另一本书《如何成为卓越的大学教师》影响很大，并成为畅销书。《如何成为卓越的大学生》也曾获得2012年哈佛大学的“教育与社会”年度好书奖。这本书的一个很重要的特点，是从受教育者也就是学生的角度，看待大学教育。贝恩教授不仅自己深入采访了几十位卓有成就的大学毕业生，参考和研究了影响人们创造力的心理学因素，还把最新的学习理论和策略与受访者的具体经历结合在一起，通过一个个鲜活的人生故事，让我们体验卓越大学生的成长历程。
+          </p>
+          <p>
+            对于大学生而言，《如何成为卓越的大学生》一书会让你建立信心。你不必聪明绝顶，也不必记忆力过人，只要你能够认识自己，发现自己的内心激情，找到合适的学习方法，你就能成为富于创新精神的人，就能成为一个卓越的大学生。另外，书中对很多问题的阐述，例如，如何进行深层次的学习，如何进行理性探究，如何从失败中获益，如何驱动自己的热情和培养创新精神，以及如何选课、如何阅读、如何写作、如何与人交往等问题，对于学生把握自己，更好地利用大学的各种教育资源和机会，是非常有帮助的。
+          </p>
+          <p>
+            对于大学教师而言，《如何成为卓越的大学生》一书提出了一个发人深省的问题：什么样的教育是学生们真正需要的？目前，我们的教育比较关注知识，关注专业知识的系统性和完整性，而忽视能力培养，忽视对思想和智慧的启迪；我们经常更多地要求学生记住那些标准的结果和答案，而忽略了用学习过程挑战学生的思考方式，改变他们看待世界的方式。从这本书中，教师可以了解到，一个卓越的老师，一门卓越的课程，是如何改变学生的人生的。
+          </p>
+          <p>
+            对于大学管理者而言，一方面，《如何成为卓越的大学生》一书告诉了我们一个最基本、最简单、但又最容易被忘记的原则——大学的最根本的使命是培育学生，使他们能够健康成长，成为卓越的大学生；另一方面，也告诉我们，学校的一切事情，包括对教师和学生的评价和激励，学校的建设和发展，都应当按照有利于学生成长的原则来进行。特别当我们还在为学校的排名或洋洋自得、或心力交瘁的时候，千万不要忘记，学生的成长才是一所大学声誉的最重要、最长远的根源。
+          </p>
+          <p>
+            我希望这本书能够启迪中国的大学生、教师和管理者，能够对我们转变教育观念、提高高等教育质量的有所助益。我也坚信《如何成为卓越的大学生》一书可以为进一步开展我们自己的大学教育研究提供借鉴。（《中华读书报 》2016年01月20日10版）
           </p>
         </article>
       </div>
-      <div id="sidebar" class="col-md-4 hidden-sm hidden-xs">
-        <section>
-          <h4>Lastest News</h4>
-        </section>
-        <section>
-          <h4>Categories</h4>
-        </section>
-        <section>
-          <h4>Tags</h4>
-        </section>
-      </div>
+      <!-- E Article -->
+      
     </div>
   </div>
     
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-7 col-xs-6">
-          <div class="row">
-            <span class="footer-logo col-md-3 col-md-offset-1 hidden-sm hidden-xs">
-              <img src="images/logo_foot.png" class="img-circle" />
-            </span>
-            <span class="col-md-8">
-              <h4>Peking University<br/> Technology Transfer Center</h4>
-              <p class="footer-address">
-                FI. 14th Wang kechen Building<br/>
-                No. 52 Haidian Rd.<br/>
-                Beijing China 100080 | Feedback
-              </p>
-            </span>
+        <div class="contact col-md-8 col-sm-12">
+          <div class="col-md-2">
+            <img src="images/qrcode.jpg" class="img-response">
+          </div>
+          <div class="col-md-3">
+            <span>欢迎关注<br>
+              官方公众号<br>
+              'PKU技术转移中心'</span>
+          </div>
+          <div class="col-md-4">
+            北京大学<br>
+            北京大学开发部<br>
+            联系我们  contact@domain.com<br>
+            地址  北京市海淀区中关村北大街116号
+          </div>
+          <div class="col-md-3">
+            收藏 | 把PKUTTC设为主页<br>
+            欢迎投稿<br>
+            draft@domain.com
           </div>
         </div>
-        <div class="col-md-5 col-xs-6">
-          <h4 class="text-center">CONNECT with PKU-TTC via:</h4>
-          <dl class="footer-contact dl-horizontal">
-            <dt>Email:</dt>
-            <dd>example@domain.com</dd>
-            <dt>Phone:</dt>
-            <dd>086 138-123-12345</dd>
-            <dt>Wechat:</dt>
-            <dd>Peking University TTC</dd>
-          </dl>
+        <div id="extra-info" class="extra-info col-md-12">
+          <div>北京大学技术转移中心为北京大学科技研发部/产业技术研究院下设机构</div>
+          <div>备案号：苏ICP备14056692号 备案查询：<a href="http://www.miitbeian.gov.cn/" title="备案查询">http://www.miitbeian.gov.cn/</a></div>
         </div>
       </div>
     </div>
